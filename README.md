@@ -10,7 +10,6 @@ These instructions will install Pycharm on your local machine for experimentatio
 
 Python requires Pycharm 2020.1.1 to run, with no additional packages. This URL to download and install the Pycharm.
 
-```
 [Pycharm](https://www.jetbrains.com/pycharm/download/#section=windows)
 ```
 
@@ -63,5 +62,20 @@ if userColor in paint_colors:
     price = paint_colors[userColor]
     totalPrice = price * cans_needed
     print('Cost of purchasing', userColor, 'paint: $%d' % totalPrice)
+##** What next**
+# the input that will use:
+12
+15
+red
+# the output should look like:
+Enter wall height (feet):
+Enter wall width (feet):
+Wall area: 180 square feet
+Paint needed: 0.51 gallons
+Cans needed: 1 can(s)
+
+Choose a color to paint the wall:
+Cost of purchasing red paint: $35
+
 
 ## **Thanks**
