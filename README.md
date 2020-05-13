@@ -9,11 +9,11 @@ These instructions will install Pycharm on your local machine for experimentatio
 ### **Prerequisites**
 
 Python requires Pycharm 2020.1.1 to run, with no additional packages. This URL to download and install the Pycharm.
-
+```
 [Pycharm](https://www.jetbrains.com/pycharm/download/#section=windows)
 ```
 
-**Running**
+##**Running**
 
 Once downloaded you can run the program by:
 
@@ -38,22 +38,22 @@ paint_colors = {
    'green': 23
 }
 
-# FIXME (1): Prompt user to input wall's width
-# Calculate and output wall area
+# FIXME (1): *Prompt user to input wall's width*
+# *Calculate and output wall area*
 wall_height = int(input('Enter wall height (feet):\n'))
 wall_width = int(input('Enter wall width (feet):\n'))
 wall_area = wall_height * wall_width
 print('Wall area:', wall_area,'square feet')
    
-# FIXME (2): Calculate and output the amount of paint in gallons needed to paint the wall
+# FIXME (2): *Calculate and output the amount of paint in gallons needed to paint the wall*
 gallon = 350
 paint_needed = wall_area / 350
 print('Paint needed: ''{:.2f}'.format(paint_needed),'gallons')
-# FIXME (3): Calculate and output the number of 1 gallon cans needed to paint the wall, rounded up to nearest integer
+# FIXME (3): *Calculate and output the number of 1 gallon cans needed to paint the wall, rounded up to nearest integer*
 cans_needed = math.ceil(paint_needed)
 print('Cans needed:', cans_needed,'can(s)')
 print()
-# FIXME (4): Calculate and output the total cost of paint can needed depending on color
+# FIXME (4): *Calculate and output the total cost of paint can needed depending on color*
 print('Choose a color to paint the wall:')
 
 
@@ -63,11 +63,14 @@ if userColor in paint_colors:
     totalPrice = price * cans_needed
     print('Cost of purchasing', userColor, 'paint: $%d' % totalPrice)
 ##** What next**
-# the input that will use:
+# *The input:*
+```
 12
 15
 red
-# the output should look like:
+```
+# *the output should look like:*
+```
 Enter wall height (feet):
 Enter wall width (feet):
 Wall area: 180 square feet
@@ -76,6 +79,6 @@ Cans needed: 1 can(s)
 
 Choose a color to paint the wall:
 Cost of purchasing red paint: $35
+```
 
-
-## **Thanks**
+# **Thanks**
