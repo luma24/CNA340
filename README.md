@@ -11,7 +11,7 @@ These instructions will install Pycharm on your local machine for experimentatio
 Python requires Pycharm 2020.1.1 to run, with no additional packages. This URL to download and install the Pycharm.
 
 ```
-This site to download [Pycharm](https://www.jetbrains.com/pycharm/download/#section=windows)
+[Pycharm](https://www.jetbrains.com/pycharm/download/#section=windows)
 ```
 
 **Running**
