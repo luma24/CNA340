@@ -1,19 +1,17 @@
-# **Project Title: 5.2-lab-Program-Painting a wall**
+**Project Title: 5.2-lab-Program-Painting a wall**
 
 This is a project to write  Python code to determine the cost of the painting a wall.
 
-## **Getting Started**
+## Getting Started
 
 These instructions will install Pycharm on your local machine for experimentation.
 
 ### **Prerequisites**
 
 Python requires Pycharm 2020.1.1 to run, with no additional packages. This URL to download and install the Pycharm.
-```
 [Pycharm](https://www.jetbrains.com/pycharm/download/#section=windows)
-```
 
-##**Running**
+## Running
 
 Once downloaded you can run the program by:
 
