@@ -60,8 +60,12 @@ if userColor in paint_colors:
     price = paint_colors[userColor]
     totalPrice = price * cans_needed
     print('Cost of purchasing', userColor, 'paint: $%d' % totalPrice)
-##** What next**
-# *The input:*
+    
+# *What next*
+```
+we use these inputs and run the program
+```
+# *The inputs:*
 ```
 12
 15
